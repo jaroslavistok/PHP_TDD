@@ -1,7 +1,8 @@
 <?php
-namespace Usecases;
+namespace LoginModule\Usecases;
 
-use Entities\User;
+
+use LoginModule\Entities\User;
 
 interface UserGateway
 {

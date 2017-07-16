@@ -1,5 +1,6 @@
 <?php
-namespace Usecases;
+namespace LoginModule\Usecases;
+
 
 interface LoginPresenter
 {

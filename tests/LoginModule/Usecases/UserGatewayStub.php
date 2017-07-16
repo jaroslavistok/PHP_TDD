@@ -1,9 +1,9 @@
 <?php
 
-namespace Usecases;
+namespace LoginModule\Usecases;
 
-use Entities\User;
-use Entities\UserStub;
+use LoginModule\Entities\User;
+use LoginModule\Entities\UserStub;
 
 class UserGatewayStub implements UserGateway
 {

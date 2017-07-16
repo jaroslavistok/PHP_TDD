@@ -1,16 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: jaroslavistok
- * Date: 15/07/2017
- * Time: 11:42
- */
-
-namespace Usecases;
-
-
-use Authorizer\Authorizer;
-use Authorizer\UserID;
+namespace LoginModule\Usecases;
+use LoginModule\Authorizers\Authorizer;
+use LoginModule\Authorizers\UserID;
 
 abstract class AuthorizerSpy implements Authorizer
 {
@@ -70,7 +61,7 @@ abstract class AuthorizerSpy implements Authorizer
     /**
      * @return string
      */
-    public function getHeldUsername(): string
+    public function getHeldUsername(): ?string
     {
         return $this->held_username;
     }

@@ -1,8 +1,8 @@
 <?php
-namespace Usecases;
+namespace LoginModule\Usecases;
 
-use Authorizer\Authorizer;
-use Entities\User;
+
+use LoginModule\Authorizers\Authorizer;
 
 class LoginInteractorImplementation implements LoginInteractor
 {

@@ -1,5 +1,5 @@
 <?php
-namespace Authorizer;
+namespace LoginModule\Authorizers;
 
 class AcceptingAuthorizerStub implements Authorizer
 {

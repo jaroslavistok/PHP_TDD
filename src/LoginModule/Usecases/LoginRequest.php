@@ -1,6 +1,5 @@
 <?php
-namespace Usecases;
-
+namespace LoginModule\Usecases;
 
 class LoginRequest
 {

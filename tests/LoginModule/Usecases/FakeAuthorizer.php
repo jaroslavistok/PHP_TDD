@@ -1,9 +1,9 @@
 <?php
-namespace Usecases;
+namespace LoginModule\Usecases;
 
-use Authorizer\Authorizer;
-use Authorizer\InvalidUserID;
-use Authorizer\UserID;
+use LoginModule\Authorizers\Authorizer;
+use LoginModule\Authorizers\InvalidUserID;
+use LoginModule\Authorizers\UserID;
 
 class FakeAuthorizer implements Authorizer
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Entities;
+namespace LoginModule\Entities;
 
 class UserStub extends User
 {

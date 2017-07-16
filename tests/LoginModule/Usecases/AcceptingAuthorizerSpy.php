@@ -1,7 +1,7 @@
 <?php
-namespace Usecases;
+namespace LoginModule\Usecases;
 
-use Authorizer\UserID;
+use LoginModule\Authorizers\UserID;
 
 class AcceptingAuthorizerSpy extends AuthorizerSpy
 {
@@ -12,7 +12,7 @@ class AcceptingAuthorizerSpy extends AuthorizerSpy
         self::$STUB_ID = new UserID(1);
     }
 
-    protected function makeUser()
+    public function makeUser()
     {
         return self::$STUB_ID;
     }

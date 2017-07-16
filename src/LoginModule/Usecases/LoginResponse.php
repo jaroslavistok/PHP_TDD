@@ -1,5 +1,5 @@
 <?php
-namespace Usecases;
+namespace LoginModule\Usecases;
 
 class LoginResponse
 {
